@@ -11,11 +11,11 @@ class Paddle:
 
     def create_paddle(self):
         piece = Turtle("square")
+        piece.penup()
+        piece.goto(x=350, y=0)
         piece.color("white")
         piece.resizemode("user")
         piece.shapesize(stretch_wid=5, stretch_len=1)
-        piece.penup()
-        piece.goto(x=350, y=0)
         return piece
 
     def up(self):
