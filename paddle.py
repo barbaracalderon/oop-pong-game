@@ -5,14 +5,13 @@ DOWN =270
 
 class Paddle:
 
-    def __init__(self):
-        self.paddle = self.create_paddle()
+    def __init__(self, position):
+        self.paddle = self.create_paddle(position)
 
-
-    def create_paddle(self):
+    def create_paddle(self, position):
         piece = Turtle("square")
         piece.penup()
-        piece.goto(x=350, y=0)
+        piece.goto(position)
         piece.color("white")
         piece.resizemode("user")
         piece.shapesize(stretch_wid=5, stretch_len=1)
