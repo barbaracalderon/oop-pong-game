@@ -29,5 +29,9 @@ while game_on:
     # Detect paddles and bounce off of it
     if ball.distance(r_paddle) < 50 and ball.xcor() > 320 or ball.distance(l_paddle) < 50 and ball.xcor() < -320:
         ball.bounce_x()
+    if ball.xcor() > 420:
+        ball.restart()
+    elif ball.xcor() < -420:
+        ball.restart()
 
 screen.exitonclick()
