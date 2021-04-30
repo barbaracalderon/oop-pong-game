@@ -1,4 +1,5 @@
 from turtle import Screen
+import time
 from paddle import Paddle
 from ball import Ball
 from scoreboard import Scoreboard
@@ -23,6 +24,7 @@ scoreboard = Scoreboard()
 
 game_on = True
 while game_on:
+    time.sleep(ball.time_speed)
     screen.update()
     ball.move()
     # Detect wall and bounce off of it
