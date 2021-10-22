@@ -13,9 +13,7 @@ KEYS TO LEFT PADDLE:
 - UP: "w"
 - DOWN: "S"
 
-Cheers,
-
-B.
+Part of Angela Yu's Bootcamp.
 
 # Jogo de Pingue Pongue dos Video Games Antigos | Python
 O jogo clássico do Atari recriado em Python.
@@ -32,6 +30,4 @@ TECLAS PARA A RAQUETE ESQUERDA:
 - SOBE: "w"
 - DESCE: "s"
 
-Saudações,
-
-B.
+Parte do Bootcamp Angela Yu's.
